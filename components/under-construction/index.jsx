@@ -25,6 +25,11 @@ export function UnderConstruction() {
               api/v1/status
             </a>
           </li>
+          <li>
+            <a href="api/v1/migrations" target="_blank">
+              api/v1/migrations
+            </a>
+          </li>
         </div>
         <div className={styles.warningWrapper}>
           <h2>🚗 you can check the roadmap here 🗺️</h2>

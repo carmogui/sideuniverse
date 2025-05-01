@@ -1,6 +1,6 @@
 import { Header } from "components";
 import Link from "next/link";
-import { TbBrowserCheck, TbTool, TbUser } from "react-icons/tb";
+import { TbBrowserCheck, TbTool } from "react-icons/tb";
 
 function Home() {
   return (

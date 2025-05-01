@@ -4,9 +4,9 @@ import { FaChevronLeft } from "react-icons/fa6";
 
 export default function UnderConstructionPage() {
   return (
-    <div className="relative flex items-center justify-center h-dvh">
+    <div className="relative flex h-dvh items-center justify-center">
       <Link
-        className="absolute top-0 left-0 flex items-center gap-2 px-4 py-4 font-bold text-[#383838] hover:opacity-75"
+        className="absolute left-0 top-0 flex items-center gap-2 px-4 py-4 font-bold text-[#383838] hover:opacity-75"
         href="/"
       >
         <div className="pb-px">
@@ -15,7 +15,7 @@ export default function UnderConstructionPage() {
         return
       </Link>
 
-      <span className="absolute bottom-0 right-0 opacity-40 p-4">
+      <span className="absolute bottom-0 right-0 p-4 opacity-40">
         legacy page | September 2023
       </span>
 
@@ -23,7 +23,7 @@ export default function UnderConstructionPage() {
         <div className="flex flex-col items-center gap-2">
           <Link
             href="/"
-            className="text-5xl font-bold hover:opacity-80 cursor-pointer"
+            className="cursor-pointer text-5xl font-bold hover:opacity-80"
           >
             🌌 sideuniverse
           </Link>
@@ -39,13 +39,13 @@ export default function UnderConstructionPage() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4 bg-gray-300 px-5 py-4 rounded-lg">
+        <div className="flex flex-col gap-4 rounded-lg bg-gray-300 px-5 py-4">
           <h2 className="text-lg font-bold">
             🚗 you can check the roadmap here 🗺️
           </h2>
 
           <a
-            className="underline text-blue-600 hover:text-blue-500"
+            className="text-blue-600 underline hover:text-blue-500"
             href="https://github.com/carmogui/sideuniverse/milestones"
             target="_blank"
           >
@@ -56,7 +56,7 @@ export default function UnderConstructionPage() {
         <div className="flex flex-col items-center gap-2">
           <span>also, check my personal website 😄</span>
           <a
-            className="flex items-center gap-2 rounded-lg px-4 py-2 font-bold text-[#383838] bg-[#f0da5e] hover:opacity-75"
+            className="flex items-center gap-2 rounded-lg bg-[#f0da5e] px-4 py-2 font-bold text-[#383838] hover:opacity-75"
             href="https://www.carmogui.dev/"
             target="_blank"
           >

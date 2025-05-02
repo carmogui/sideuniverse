@@ -7,7 +7,7 @@ import {
   TbUsers,
 } from "react-icons/tb";
 import useSWR from "swr";
-import { LastUpdated, StatusCard } from "./components";
+import { LastUpdated, StatusCard } from "pages-components/status";
 import styles from "./styles.module.css";
 
 async function fetchAPI(key: string) {

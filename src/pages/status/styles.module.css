@@ -1,0 +1,5 @@
+.statusIndicator {
+  @apply absolute -right-3 -top-0 size-2.5 rounded-full bg-gray-300 shadow-[0_0_12px_2px] shadow-gray-300/60;
+  @apply data-[status=success]:bg-green-500 data-[status=success]:shadow-green-500/60;
+  @apply data-[status=error]:bg-red-400 data-[status=error]:shadow-red-400/60;
+}
